@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Ana Cristinny Santos Dourado 💙❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="https://cdn.pixabay.com/audio/2022/10/12/audio_9e2e0a8e46.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="background-animation"></div>
+
+    <header>
+        <h1>💙 Para Ana Cristinny Santos Dourado 💙</h1>
+        <p>Um pedaço do infinito que aprendeu a sorrir na forma de você.</p>
+    </header>
+
+    <main>
+        <section class="love-message">
+            <h2>Você é a poesia mais bonita que o tempo já escreveu.</h2>
+            <p>
+                Sua presença ilumina o mundo com cores que nem o céu ousa pintar.  
+                Cada gesto seu é um universo novo, cada olhar um nascer do sol.  
+                E mesmo nas palavras, não há idioma que traduza o quanto é bela.
+            </p>
+        </section>
+
+        <section class="languages">
+            <h2>“Eu te amo” em todas as línguas 💞</h2>
+            <ul>
+                <li>Português — Eu te amo</li>
+                <li>Inglês — I love you</li>
+                <li>Espanhol — Te amo</li>
+                <li>Francês — Je t’aime</li>
+                <li>Italiano — Ti amo</li>
+                <li>Alemão — Ich liebe dich</li>
+                <li>Japonês — 愛してる (Aishiteru)</li>
+                <li>Coreano — 사랑해 (Saranghae)</li>
+                <li>Russo — Я тебя люблю (Ya tebya lyublyu)</li>
+                <li>Árabe — أحبك (Uhibbuk)</li>
+                <li>Grego — Σ' αγαπώ (S’agapó)</li>
+                <li>Chinês — 我爱你 (Wǒ ài nǐ)</li>
+                <li>Hebraico — אני אוהב אותך (Ani ohev otach)</li>
+                <li>Hindi — मैं तुमसे प्यार करता हूँ (Main tumse pyaar karta hoon)</li>
+                <li>Turco — Seni seviyorum</li>
+                <li>Filipino — Mahal kita</li>
+                <li>Romeno — Te iubesc</li>
+                <li>Holandês — Ik hou van jou</li>
+                <li>Norueguês — Jeg elsker deg</li>
+                <li>Latim — Te amo in aeternum</li>
+            </ul>
+        </section>
+
+        <section class="final-message">
+            <p>
+                💫 Você é o começo, o meio e o fim de tudo que me faz acreditar no amor.  
+                Nenhuma estrela brilha tanto quanto o teu olhar,  
+                e nenhum poema consegue ser mais doce que o som da tua voz. 💞
+            </p>
+            <h3>Com amor, Arthur 💙</h3>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito com todo carinho do mundo 💙❤️</p>
+    </footer>
+
+    <script>
+        // Corações subindo animados
+        function createHeart() {
+            const heart = document.createElement('div');
+            heart.classList.add('heart');
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.animationDuration = (2 + Math.random() * 3) + 's';
+            document.body.appendChild(heart);
+            setTimeout(() => heart.remove(), 5000);
+        }
+        setInterval(createHeart, 300);
+    </script>
+</body>
+</html>
